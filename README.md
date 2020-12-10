@@ -28,7 +28,7 @@ requests.post('https://rintaroutw-latex2svg.netlify.com/.netlify/functions/latex
 ## 部署步骤
 1. npm 安装
 2. npm换源：npm config set registry https://registry.npm.taobao.org
-3. 如果npm安装过慢，换yarn：npm install -g yarn 配置源：yarn config set registry https://registry.npm.taobao.org -g
+3. 如果npm安装过慢，换yarn：npm install -g yarn 配置源：yarn config set registry https://registry.npm.taobao.org -g <br/>
                                                     yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 4. 安装包: yarn add package.js  （如果提示版本过低，升级node版本：$npm install -g n；$ n stable）
 5. node app.js 启动服务
